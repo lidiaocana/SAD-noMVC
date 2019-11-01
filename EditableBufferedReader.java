@@ -10,6 +10,7 @@ public class EditableBufferedReader extends BufferedReader {
         super(in);
         line = new Line();
     }
+    
 
     // Metodes
     // setRaw: passa la consola de mode cooked a mode raw.
